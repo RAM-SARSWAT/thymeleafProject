@@ -1,0 +1,5 @@
+server:
+  port: 2334
+  servlet:
+    context-path: /thymeleaf-project
+
