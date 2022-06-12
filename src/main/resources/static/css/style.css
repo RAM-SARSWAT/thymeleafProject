@@ -2,3 +2,17 @@ span{
     color: #59ff00;
     background-color: blue;
 }
+
+body{
+   background:  #e2e2e2;
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 40px;
+    font-family: 'Roboto';
+}
+
+.profile{
+    border-radius: 50%;
+}

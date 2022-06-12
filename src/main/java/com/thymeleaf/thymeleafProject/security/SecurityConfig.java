@@ -13,7 +13,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests().antMatchers("/th/**").permitAll()
                 .and().
-                formLogin().loginPage("/iterate").permitAll().
+                formLogin().loginPage("/iterate").loginProcessingUrl("/iterate").
           defaultSuccessUrl("/index",true).
                 and().
                 csrf().disable();
